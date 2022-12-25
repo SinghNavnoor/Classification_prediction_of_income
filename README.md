@@ -37,7 +37,10 @@
 ![liblinear_l1_log_graph](https://user-images.githubusercontent.com/86537623/209478720-f4f6fc84-965f-4a1f-abdc-565f53d49567.png)
 
 
+## Clustering
 
+
+![inertia_sil_score_final](https://user-images.githubusercontent.com/86537623/209480219-97c41879-96d9-493a-b51c-52c0f67772ef.png)
 
 
 
