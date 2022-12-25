@@ -17,10 +17,21 @@
 
 ![gender_imbalance](https://user-images.githubusercontent.com/86537623/209460554-40ad8fae-2ce2-44e6-a047-6e71e9773ec2.png)
 
+## Machine Learning Models 
 
-## Best Model 
+### KNN 
 
-![confusion_matrix_tuned_log](https://user-images.githubusercontent.com/86537623/209478719-6944fe3e-034f-4df4-a9e2-54328efa4003.png)
+![knn_confusion_matrix](https://user-images.githubusercontent.com/86537623/209478974-b7f7e287-1ac7-4165-bc2c-6cec22bea00e.png)
+
+
+
+![knn1_tuned_model](https://user-images.githubusercontent.com/86537623/209478895-e6340f4d-a6e9-4323-a4aa-3019c462d043.png)
+
+
+### Logistic Regression
+#### Also the best model 
+![confusion_matrix_tune_log](https://user-images.githubusercontent.com/86537623/209479043-0de1f7a1-f997-4bc5-9f1d-44c6266297a0.png)
+
 
 
 ![liblinear_l1_log_graph](https://user-images.githubusercontent.com/86537623/209478720-f4f6fc84-965f-4a1f-abdc-565f53d49567.png)
