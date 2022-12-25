@@ -1,4 +1,4 @@
-# CodingDojo_Project_2
+# Income Prediction
 
 ![heatmap_of_correlation_final5](https://user-images.githubusercontent.com/86537623/209460549-3e36525c-9f75-4227-aa45-42b651668751.png)
 
