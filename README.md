@@ -43,20 +43,29 @@
 ## Machine Learning Models 
 #### This being a classification problem, there were two types of models in focus. KNN and Logistic Regression. 
 #### The hyper-parameters were tuned of both models to find the best model with low False Negative and False Positives.  
+
 ### KNN 
 #### Hyper Paramerters:
 - n_neighbours = 16
+
 ![knn1_tuned_model](https://user-images.githubusercontent.com/86537623/209478895-e6340f4d-a6e9-4323-a4aa-3019c462d043.png)
 
+#### Results: 
 ![knn_confusion_matrix](https://user-images.githubusercontent.com/86537623/209478974-b7f7e287-1ac7-4165-bc2c-6cec22bea00e.png)
+
 
 ## The Best Model: 
 
 ### Logistic Regression
-#### Also the best model 
+#### Hyper-Parameters:
+- Penatly: L1
+- C = 1.0
+- Solver = liblinear
+
 
 ![liblinear_l1_log_graph](https://user-images.githubusercontent.com/86537623/209478720-f4f6fc84-965f-4a1f-abdc-565f53d49567.png)
 
+#### Results: 
 ![confusion_matrix_tune_log](https://user-images.githubusercontent.com/86537623/209479043-0de1f7a1-f997-4bc5-9f1d-44c6266297a0.png)
 
 ## Clustering
