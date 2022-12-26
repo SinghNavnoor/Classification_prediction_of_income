@@ -1,9 +1,10 @@
 # Income Prediction
-## Using features like hours worked and education to predict which income class does an individual belong to. 
+## Using the demographics of an individual as features to predict which income class do they belong to. 
 
 ### Navnoor Singh Kahlon
 
 ## Dataset:
+<img width="1307" alt="Screen Shot 2022-12-26 at 1 47 22 PM" src="https://user-images.githubusercontent.com/86537623/209585071-74657883-2a75-4991-bf08-54967dc35e62.png">
 
 
 ## Heatmap 
