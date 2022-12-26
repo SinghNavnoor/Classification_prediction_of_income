@@ -14,7 +14,7 @@
 - Used python methods like .isna() and .duplicated() to see if any columns had null values or any duplicates.
 - Instead of null values the columns had '?' mark. Those were replaced with actual null values and dealth with during the machine learning stage. 
 
-## Exploratory Visualizations
+## Visualizations
 
 ### Heatmap:
 #### A heatmap was created to look for any correlation among our columns. 
@@ -22,13 +22,23 @@
 - The heatmap showed us that there was very weak positive and weak negative correlation between all the columns. 
 - Correlation does not mean causation. 
 
-## Findings 
-![workclass_maritalStatus_Hours_worked](https://user-images.githubusercontent.com/86537623/209460551-23907385-ae6c-4abc-b80b-718649285533.png)
+### Univariate visualizations: 
 
+##### 
 ![race_imbalance](https://user-images.githubusercontent.com/86537623/209460552-d6d57cf7-e11f-4a01-a54f-6aba24d19f6e.png)
-
+- The dataset is heavily skewed towards the White Race.
+- Other members like Asian, Black and American Indians barely reach half the number of the White Race combined. 
 
 ![gender_imbalance](https://user-images.githubusercontent.com/86537623/209460554-40ad8fae-2ce2-44e6-a047-6e71e9773ec2.png)
+- Amongst the genders, the dataset is skewed towards men. 
+- The skeweness is not as bad as the Race Imbalance of this dataset. 
+
+#Multivariate Visualizations: 
+
+![workclass_maritalStatus_Hours_worked](https://user-images.githubusercontent.com/86537623/209460551-23907385-ae6c-4abc-b80b-718649285533.png)
+- Men worked more than women in every Marital Status and Working class. 
+- This sheds a light on other responsibilities that women have, and are not recognized. 
+- The dataset does not take into account the number of hours an individual spent taking care of their hours. This would have been skewed towards women. 
 
 ## Machine Learning Models 
 
