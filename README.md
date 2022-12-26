@@ -6,9 +6,21 @@
 ## Dataset:
 <img width="1307" alt="Screen Shot 2022-12-26 at 1 47 22 PM" src="https://user-images.githubusercontent.com/86537623/209585071-74657883-2a75-4991-bf08-54967dc35e62.png">
 
+## Preparing and Understanding the data
 
-## Heatmap 
+### Data Cleaning and Wrangling:
+- Used Feature Enginnering to combine two columns, reduce the computational time and increase the prediction score. 
+- Dropped columns that were not contributing anything to the dataset. 
+- Used python methods like .isna() and .duplicated() to see if any columns had null values or any duplicates.
+- Instead of null values the columns had '?' mark. Those were replaced with actual null values and dealth with during the machine learning stage. 
+
+## Exploratory Visualizations
+
+### Heatmap:
+#### A heatmap was created to look for any correlation among our columns. 
 ![heatmap_of_correlation_final5](https://user-images.githubusercontent.com/86537623/209460549-3e36525c-9f75-4227-aa45-42b651668751.png)
+- The heatmap showed us that there was very weak positive and weak negative correlation between all the columns. 
+- Correlation does not mean causation. 
 
 ## Findings 
 ![workclass_maritalStatus_Hours_worked](https://user-images.githubusercontent.com/86537623/209460551-23907385-ae6c-4abc-b80b-718649285533.png)
