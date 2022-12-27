@@ -81,8 +81,10 @@
 
 - While we did loose a percent on the True Positives, we were able to reduce the False Negative by three percent. 
 
-
-
+### Recommendations:
+- While the dataset had many detail oriented features, it could have been more balanced among race and gender. 
+- There were no clear explanations on features like fnlwgt and educational-num, hence they were dropped. 
+- 
 
 
 
