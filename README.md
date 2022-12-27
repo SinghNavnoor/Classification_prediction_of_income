@@ -42,8 +42,8 @@
 
 ## Machine Learning Models 
 #### This being a classification problem, there were two types of models in focus. KNN and Logistic Regression. 
-#### The hyper-parameters were tuned of both models to find the best model with low False Negative and False Positives.  
-#### Clustering was done on the numerical columns to see if the model would find any interesting aspests about the dataset. 
+#### The hyper-parameters were tuned of both models to find the best one with low Type 1 and Type 2 Errors.  
+#### Clustering was also done on the numerical columns to see if the model would find any interesting aspests about the dataset. 
 
 ### KNN 
 #### Hyper Paramerters:
@@ -57,8 +57,8 @@
 - While this was a decent model with high True Positive, the next goal was to reduce the False Negative as much as possible. 
 
 ## Clustering
-#### Clutering was applied to see if there were any interesting parterns in the dataset. 
-#### Running a loop we found four to be the best number of clusters. 
+#### Clutering was applied to see if there were any interesting patterns in the dataset. 
+#### Running a loop to find the optimal number of clusters, we found four to be an acceptable number of clusters with low inertia and high silhouetter score. . 
 ![inertia_sil_score_final](https://user-images.githubusercontent.com/86537623/209480219-97c41879-96d9-493a-b51c-52c0f67772ef.png)
 
 ### Results
@@ -75,7 +75,8 @@
 
 
 ![liblinear_l1_log_graph](https://user-images.githubusercontent.com/86537623/209478720-f4f6fc84-965f-4a1f-abdc-565f53d49567.png)
-
+- While most model were overfitting, this was the least overfitting model. 
+- The difference between the testing and training scores was only of 1 percent. 
 ### Results: 
 ![confusion_matrix_tune_log](https://user-images.githubusercontent.com/86537623/209479043-0de1f7a1-f997-4bc5-9f1d-44c6266297a0.png)
 
@@ -83,8 +84,7 @@
 
 ### Recommendations:
 - While the dataset had many detail oriented features, it could have been more balanced among race and gender. 
-- There were no clear explanations on features like fnlwgt and educational-num, hence they were dropped. 
-- 
+- There were no clear explanations about features like fnlwgt and educational-num, if there was one, which we were unable to find, could have enabled us to better handle them and use them better in model building. 
 
 
 
