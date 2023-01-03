@@ -45,29 +45,29 @@
 #### The hyper-parameters were tuned of both models to find the best one with low Type 1 and Type 2 Errors.  
 #### Clustering was also done on the numerical columns to see if the model would find any interesting aspests about the dataset. 
 
-### KNN 
+### KNN Model 
 #### Hyper Paramerters:
 - n_neighbours = 16
 
 ![knn1_tuned_model](https://user-images.githubusercontent.com/86537623/209478895-e6340f4d-a6e9-4323-a4aa-3019c462d043.png)
 
-### Results: 
+### Model Results: 
 ![knn_confusion_matrix](https://user-images.githubusercontent.com/86537623/209478974-b7f7e287-1ac7-4165-bc2c-6cec22bea00e.png)
 
 - While this was a decent model with high True Positive, the next goal was to reduce the False Negative as much as possible. 
 
-## Clustering
+## Clustering Model 
 #### Clutering was applied to see if there were any interesting patterns in the dataset. 
 #### Running a loop to find the optimal number of clusters, we found four to be an acceptable number of clusters with low inertia and high silhouetter score. . 
 ![inertia_sil_score_final](https://user-images.githubusercontent.com/86537623/209480219-97c41879-96d9-493a-b51c-52c0f67772ef.png)
 
-### Results
+### Model Results:
 <img width="501" alt="Screen Shot 2022-12-26 at 2 41 42 PM" src="https://user-images.githubusercontent.com/86537623/209586970-f3ace853-c147-41ef-934d-4c8f47fbee1d.png">
 - There is a clear relation between the number of hours one worked and their Net Capital Gain.
 
 ## The Best Model: 
 
-### Logistic Regression
+### Logistic Regression Model
 #### Hyper-Parameters:
 - Penatly: L1
 - C = 1.0
@@ -77,7 +77,7 @@
 ![liblinear_l1_log_graph](https://user-images.githubusercontent.com/86537623/209478720-f4f6fc84-965f-4a1f-abdc-565f53d49567.png)
 - While most model were overfitting, this was the least overfitting model. 
 - The difference between the testing and training scores was only of 1 percent. 
-### Results: 
+### Model Results: 
 ![confusion_matrix_tune_log](https://user-images.githubusercontent.com/86537623/209479043-0de1f7a1-f997-4bc5-9f1d-44c6266297a0.png)
 
 - While we did loose a percent on the True Positives, we were able to reduce the False Negative by three percent. 
