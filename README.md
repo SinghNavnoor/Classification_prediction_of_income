@@ -12,7 +12,7 @@
 - Used Feature Enginnering to combine two columns, reduce the computational time and increase the prediction score. 
 - Dropped columns that were not contributing anything to the dataset. 
 - Used python methods like .isna() and .duplicated() to see if any columns had null values or any duplicates.
-- Instead of null values the columns had '?' mark. Those were replaced with actual null values and dealth with during the machine learning stage. 
+- Instead of null values the columns had '?' mark. Those were replaced with actual null values and dealt with during the machine learning stage. 
 
 ## Visualizations
 
@@ -38,7 +38,7 @@
 ![workclass_maritalStatus_Hours_worked](https://user-images.githubusercontent.com/86537623/209460551-23907385-ae6c-4abc-b80b-718649285533.png)
 - Men worked more than women in every Marital Status and Working class. 
 - This sheds a light on other responsibilities that women have, and are not recognized. 
-- The dataset does not take into account the number of hours an individual spent taking care of their homes. Then that would have been skewed towards women. 
+- The dataset does not take into account the number of hours an individual spent taking care of their home. Then that would have been skewed towards women. 
 
 ## Machine Learning Models 
 #### This being a classification problem, there were two types of models in focus. KNN and Logistic Regression. 
