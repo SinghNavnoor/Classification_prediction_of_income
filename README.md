@@ -17,7 +17,7 @@
 ## Visualizations
 
 ### Heatmap:
-#### A heatmap was created to look for any correlation among our columns. 
+#### A heatmap was created to look for any correlation among the columns. 
 ![heatmap_of_correlation_final5](https://user-images.githubusercontent.com/86537623/209460549-3e36525c-9f75-4227-aa45-42b651668751.png)
 - The heatmap showed us that there was very weak positive and weak negative correlation between all the columns. 
 - Correlation does not mean causation. 
@@ -37,24 +37,14 @@
 
 ![workclass_maritalStatus_Hours_worked](https://user-images.githubusercontent.com/86537623/209460551-23907385-ae6c-4abc-b80b-718649285533.png)
 - Men worked more than women in every Marital Status and Working class. 
-- This sheds a light on other responsibilities that women have, and are not recognized. 
-- The dataset does not take into account the number of hours an individual spent taking care of their home. Then that would have been skewed towards women. 
+- This sheds a light on other responsibilities that women have, and are not recognized for. 
+- The dataset does not take into account the number of hours an individual spent taking care of their family. If that was the case then data would have been skewed towards women. 
 
 ## Machine Learning Models 
+#### Clustering was done on the numerical columns to see if the model would find any interesting aspects about the dataset. 
 #### This being a classification problem, there were two types of models in focus. KNN and Logistic Regression. 
-#### The hyper-parameters were tuned of both models to find the best one with low Type 1 and Type 2 Errors.  
-#### Clustering was also done on the numerical columns to see if the model would find any interesting aspests about the dataset. 
+#### The hyper-parameters were tuned for both models to find the model with low Type 1 and Type 2 Errors.  
 
-### KNN Model 
-#### Hyper Paramerters:
-- n_neighbours = 16
-
-![knn1_tuned_model](https://user-images.githubusercontent.com/86537623/209478895-e6340f4d-a6e9-4323-a4aa-3019c462d043.png)
-
-### Model Results: 
-![knn_confusion_matrix](https://user-images.githubusercontent.com/86537623/209478974-b7f7e287-1ac7-4165-bc2c-6cec22bea00e.png)
-
-- While this was a decent model with high True Positive, the next goal was to reduce the False Negative as much as possible. 
 
 ## Clustering Model 
 #### Clutering was applied to see if there were any interesting patterns in the dataset. 
@@ -64,6 +54,18 @@
 ### Model Results:
 <img width="501" alt="Screen Shot 2022-12-26 at 2 41 42 PM" src="https://user-images.githubusercontent.com/86537623/209586970-f3ace853-c147-41ef-934d-4c8f47fbee1d.png">
 - There is a clear relation between the number of hours one worked and their Net Capital Gain.
+
+
+### KNN Model 
+#### Hyper Parameters:
+- n_neighbours = 16
+
+![knn1_tuned_model](https://user-images.githubusercontent.com/86537623/209478895-e6340f4d-a6e9-4323-a4aa-3019c462d043.png)
+
+### Model Results: 
+![knn_confusion_matrix](https://user-images.githubusercontent.com/86537623/209478974-b7f7e287-1ac7-4165-bc2c-6cec22bea00e.png)
+
+- While this was a decent model with high True Positive, the next goal was to reduce the False Negative as much as possible. 
 
 ## The Best Model: 
 
