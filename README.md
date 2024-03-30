@@ -37,7 +37,6 @@
 
 ![workclass_maritalStatus_Hours_worked](https://user-images.githubusercontent.com/86537623/209460551-23907385-ae6c-4abc-b80b-718649285533.png)
 - Men worked more than women in every Marital Status and Working class. 
-- This sheds a light on other responsibilities that women have, and are not recognized for. 
 - The dataset does not take into account the number of hours an individual spent taking care of their family. If that was the case then data would have been skewed towards women. 
 
 ## Machine Learning Models 
