@@ -1,5 +1,5 @@
 # Income Prediction
-## Using the demographics of an individual as features to predict which income class do they belong to. 
+## Using the demographics of an individual to predict which income class do they belong to. 
 
 ### Navnoor Singh Kahlon
 
