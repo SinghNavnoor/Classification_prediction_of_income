@@ -37,7 +37,7 @@
 
 ![workclass_maritalStatus_Hours_worked](https://user-images.githubusercontent.com/86537623/209460551-23907385-ae6c-4abc-b80b-718649285533.png)
 - Men worked more than women in every Marital Status and Working class. 
-- The dataset does not take into account the number of hours an individual spent taking care of their family. If that was the case then data would have been skewed towards women. 
+- The dataset does not take into account the number of hours an individual spent taking care of their family. 
 
 ## Machine Learning Models 
 #### Clustering was done on the numerical columns to see if the model would find any interesting aspects about the dataset. 
